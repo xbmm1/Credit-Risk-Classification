@@ -13,3 +13,9 @@
 
 ![credit](Resources/Capture.PNG)
 * Comparing the evaluation metrics, the model with oversampled data shows improvements in various aspects. The precision for label 1 (high-risk loans) has increased from 0.85 to 0.84, indicating a slightly lower false positive rate. The recall for label 1 has significantly improved from 0.91 to 0.99, indicating a higher proportion of actual high-risk loans correctly identified. The specificity for label 0 (healthy loans) has also increased from 0.91 to 0.99, indicating a better identification of non-high-risk loans.
+
+    * Both models achieved high precision and recall scores, indicating good performance in predicting loan classifications.
+    * The resampled dataset model shows improved performance, particularly in identifying high-risk loans, as evident from its higher recall score for Class 1.
+    * Considering the importance of correctly identifying high-risk loans to mitigate potential losses, the resampled dataset model is recommended for loan classification.
+    * The resampled model exhibits a higher likelihood of capturing potential high-risk loans, reducing the chance of false negatives and enhancing risk management for the lending institution.
+    
